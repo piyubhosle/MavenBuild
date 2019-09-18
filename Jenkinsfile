@@ -21,7 +21,7 @@ stage ('Archive Artifacts'){
 }
 	
 stage ('Deployment'){
-	sh 'cp target/*.war /opt/tomcat8/webapps'
+	//sh 'cp target/*.war /opt/tomcat8/webapps'
 }
 }
  
